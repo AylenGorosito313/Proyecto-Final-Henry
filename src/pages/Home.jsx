@@ -7,15 +7,11 @@ function Home (){
     const { users } = useSelector(state => state.prueba)
 
     useEffect(() => {
-        dispatch(addUser(['Daniel', 'Pablo', 'Macarena', 'Aylen', 'K-Itzel', 'Mauro', 'LOS DEMAS NO ME SE SUS NOMBRES', 'algo']))
+        dispatch(addUser(['Daniel', 'Pablo', 'Macarena', 'Aylen', 'K-Itzel', 'Mauro', 'LOS DEMAS NO ME SE SUS NOMBRES']))
     },[dispatch])
 return(
     <div>
-<<<<<<< Updated upstream
-        <h1>Amigos la buena soy pablo de bayordrigans</h1>
-=======
         <h1>Henry Games Ultimate</h1>
->>>>>>> Stashed changes
         <h1>Proyecto final Henry ---tamplate</h1>
         <h2>integrantes: {users && users.map(ele => ele).join(', ')}</h2>
         <h1>Primer commit a develop</h1>
