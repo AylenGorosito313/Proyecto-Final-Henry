@@ -7,7 +7,7 @@ function Home (){
     const { users } = useSelector(state => state.prueba)
 
     useEffect(() => {
-        dispatch(addUser(['Daniel', 'Pablo', 'Macarena', 'Aylen', 'K-Itzel', 'Mauro', 'LOS DEMAS NO ME SE SUS NOMBRES']))
+        dispatch(addUser(['Daniel', 'Pablo', 'Macarena', 'Aylen', 'K-Itzel', 'Mauro', 'LOS DEMAS NO ME SE SUS NOMBRES', 'algo']))
     },[dispatch])
 return(
     <div>
