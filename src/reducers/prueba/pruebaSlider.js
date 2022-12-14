@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     users: [],
+    games: []
 };
 
 
@@ -12,6 +13,9 @@ export const toolkit_prueba = createSlice({
     reducers: {
         addUser: (state, actions) => {
             state.users = [...actions.payload]
+        }
+        allGames: (state, actions) => {
+            state.gmaes = [...actions.payload]
         }
     },
 });
