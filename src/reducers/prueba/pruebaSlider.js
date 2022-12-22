@@ -14,9 +14,6 @@ export const toolkit_prueba = createSlice({
         addUser: (state, actions) => {
             state.users = [...actions.payload]
         }
-        allGames: (state, actions) => {
-            state.gmaes = [...actions.payload]
-        }
     },
 });
 
